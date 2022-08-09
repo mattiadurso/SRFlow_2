@@ -190,7 +190,7 @@ def main():
 
             #### update learning rate
             model.update_learning_rate(current_step, warmup_iter=opt['train']['warmup_iter'])
-            #nll=0
+            nll=0
             try:
                 nll = model.optimize_parameters(current_step)
             except RuntimeError as e:
