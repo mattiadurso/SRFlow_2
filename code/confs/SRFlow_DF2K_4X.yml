@@ -63,8 +63,8 @@ network_G:
   train_RRDB_delay: 0.5
 
   flow:
-    K: 16
-    L: 3
+    K: 24
+    L: 2
     noInitialInj: true
     coupling: CondAffineSeparatedAndCond
     additionalFlowNoAffine: 2
